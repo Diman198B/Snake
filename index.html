@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" href="img/snake.png" type="image/png">
+  <title>Змейка на JS</title>
+</head>
+<body>
+<header>
+  <h1>Браузерная игра "Змейка" по мотивам тетриса</h1>
+</header>
+<main>
+  <section>
+  <div id="allconteiner">
+    <div id="LeftMenu">
+      <div class="rules">
+      <h2>Правила игры</h2>
+      <p>Задача только одна - съесть как можно больше мышек, чтобы змейка была сыта.
+        При этом нельзя, чтобы змейка сталкивалась с границами поля или собственным хвостом, иначе игра будет окончена.
+      </p>
+    </div>
+  <div class="control">
+    <h2>Управление</h2>
+      <ul>
+        <li><img src="img/arrow_bottom.png" alt="движение вниз" width="30px" height="30px">&nbsp;&nbsp;- Змея движется
+          вниз.
+        </li>
+        <li><img src="img/arrow_top.png" alt="движение вверх" width="30px" height="30px">&nbsp;&nbsp;- Змея движется
+          вверх.
+        </li>
+        <li><img src="img/arrow_left.png" alt="движение влево" width="30px" height="30px">&nbsp;&nbsp;- Змея движется
+          влево.
+        </li>
+        <li><img src="img/arrow_right.png" alt="движение вправо" width="30px" height="30px">&nbsp;&nbsp;- Змея движется
+          вправо.
+        </li>
+      </ul> 
+    </div>
+  </div>
+
+    <div class="center">
+      <canvas width="500" height="500" id="holst"></canvas>
+    </div>
+
+    <div id="RightMenu">
+      <div class="score">
+      <h2>Cъеденные мышки</h2>
+      <div id="SubrightMenu">
+        <img src="img/mouse48.png" alt="мышка" width="30px" height="30px">
+        <div id="numberMouse"></div>
+      </div>
+    </div>
+    <div class="speed">
+      <h2>Сложность игры</h2>
+        <input type="range" min="2" max="8" value="5" step="1" class="slider" id="range" oninput="funDifficult()">
+        <div class="diapazons">
+        <p>Сложно</p>
+        <p>Легко</p>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+</main>
+<script src="js/snake.js"></script>
+</body>
+</html>
+
