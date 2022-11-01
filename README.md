@@ -17,15 +17,13 @@
 Game rules and controls are located next to the playing field. On the opposite side, a counter of mouse eaten is displayed. It is reset every time the Snake crashes into the edge of the playing field or into itself.
 
 ## Troubleshooting:
-The game is designed for large screens (computers and laptops). There is no tablet or mobile version. The game works perfectly and stably in the latest versions of modern browsers. I did not do cross-browser compatibility and adaptive design in the project, because I worked out JavaScript. Accordingly, if your game does not display correctly or does not work, then try:
-1. Update your browser version.
-2. Try running the game on a higher resolution screen.
+The game is designed for devices whose screen width starts from 768px. For monitors with a screen frequency greater than 60 Hz, set the difficulty of the game that is convenient for you using the slider next to the playing field.
 
 ## Author:
 Dmitry Barabash
  
 ## Used technologies:
-HTML, CSS, JavaScript.  
+HTML, CSS, JavaScript, Canvas JS, git.  
 
 
 
@@ -51,12 +49,10 @@ HTML, CSS, JavaScript.
 Правила игры и управление расположены рядом с игровым полем. С противоположной стороны выведен счетчик съеденных мышек. Он обнуляется каждый раз, когда Змейка врезается в край игрового поля или в саму себя.
 
 ## Диагностика:
-Игра разработана под большие экраны (компьютеры и ноутбуки). Планшетной и мобильной версии нет. Игра отлично и стабильно работает в последних версиях современных браузеров. Кроссбраузерность и адаптивный дизайн в проекте я не делал, потому что отрабатывал JavaScript. Соответственно, если у вас игра некорректно отображается или не работает, то попробуйте:
-1. Обновите версию своего браузера.
-2. Попробуйте запустить игру на экране с бОльшим разрешением.
+Игра разработана под устройства, ширина экрана которых начинается от 768px. Для мониторов с частотой экрана больше 60 Гц, выставите удобную для вас сложность игры с помощью слайдера рядом с игровым полем.
 
 ## Автор:
 Дмитрий Барабаш
  
 ## Используемые технологии:
-HTML, CSS, JavaScript.  
+HTML, CSS, JavaScript, Canvas JS, git.  
