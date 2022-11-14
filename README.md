@@ -6,7 +6,7 @@
 ## Launch:
 1. Save or clone the repository on your PC. 
 ```
- git clone https://github.com/Diman198B/Snake
+ git clone https://github.com/Diman198B/Snake.git
 ```
 [Learn more](https://git-scm.com/book/ru/v2/Приложение-C%3A-Команды-Git-Клонирование-и-создание-репозиториев)
 
@@ -38,7 +38,7 @@ HTML, CSS, JavaScript, Canvas JS, git.
 ## Запуск: 
 1. Сохраните или клонируйте репозиторий себе на ПК.  
 ```
-  git clone https://github.com/Diman198B/Snake 
+  git clone https://github.com/Diman198B/Snake.git 
 ```
 [Подробнее](https://git-scm.com/book/ru/v2/Приложение-C%3A-Команды-Git-Клонирование-и-создание-репозиториев)
 
